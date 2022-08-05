@@ -6,10 +6,15 @@ import {AiFillFlag} from 'react-icons/ai'
 import {MdOutlineSubscriptions} from 'react-icons/md'
 import {MdOutlineStorefront} from 'react-icons/md'
 import {MdSupervisedUserCircle} from 'react-icons/md'
+import {FaUserCircle} from 'react-icons/fa'
+import {GrFormAdd} from 'react-icons/gr'
+import {MdForum} from 'react-icons/md'
+import {MdNotificationsActive} from 'react-icons/md'
+import {MdExpandMore} from 'react-icons/md'
 
 function Header() {
   return (
-    <div className='Header'>
+    <div className='header'>
         <div className="header_left">
             <img src={logo} alt="Logo"/>
             <div className="header_input">
@@ -37,7 +42,14 @@ function Header() {
             </div>
         </div>
         <div className="header_right">
-
+            <div className="header_info">
+                <FaUserCircle />
+                <h4>Username</h4>
+            </div>
+                <GrFormAdd/>
+                <MdForum/>
+                <MdNotificationsActive/>
+                <MdExpandMore/>
         </div>
     </div>
   )
