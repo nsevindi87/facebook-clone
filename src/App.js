@@ -1,11 +1,13 @@
+import React from 'react';
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hallo World</h1>
+    <div className="app">
+      <h1>Hallo World 2</h1>
 
-      {/* Header */}
+      <Header />
 
       {/* App Body */}
         {/* Sidebar */}
@@ -16,10 +18,6 @@ function App() {
         {/* Widgets */}
       
     </div>
-
-    
-
-
   );
 }
 
