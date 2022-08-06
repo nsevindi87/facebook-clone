@@ -24,20 +24,20 @@ function Header() {
 
 
         </div>
-        <div className="header_middle">
-            <div className="header_option">
+        <div className="header_center">
+            <div className="header_option ">
                 <AiFillHome fontSize="large" />
             </div>
-            <div className="header_option">
+            <div className="header_option ">
                 <AiFillFlag fontSize="large" />
             </div>
-            <div className="header_option">
+            <div className="header_option ">
                 <MdOutlineSubscriptions fontSize="large" />
             </div>
-            <div className="header_option">
+            <div className="header_option ">
                 <MdOutlineStorefront fontSize="large" />
             </div>
-            <div className="header_option">
+            <div className="header_option ">
                 <MdSupervisedUserCircle fontSize="large" />
             </div>
         </div>

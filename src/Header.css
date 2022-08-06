@@ -23,6 +23,29 @@
     border-radius: 30px;
 }
 
-.header_left>img{
+.header_left > img{
     height: 40px;
+}
+
+.header_input > input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header_center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header_option {
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.header_option:hover {
+    color: #2e81f4;
 }
