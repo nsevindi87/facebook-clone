@@ -39,13 +39,39 @@
     justify-content: center;
 }
 
-.header_option {
+.header_option {        
     color: gray;
     display: flex;
     align-items: center;
     padding: 0 30px;
     cursor: pointer;
 }
+
+/* Element.ui kullanilirlsa .MuiSVGIcon genel olarak bütün ikonlara verilen bir klas. Sadece bu klas kullanilarak ayrica klas atamasi yapilmadan istenilen yerdeki ikonlar düzenlenebilir. */
+
 .header_option:hover {
     color: #2e81f4;
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+}
+
+.header_info{
+    display: flex;
+    align-items: center;
+}
+
+.header_info>h4{
+    margin-left: 10px;
+}
+
+.header_right>.header_option{
+    padding: 12px 31px;
 }

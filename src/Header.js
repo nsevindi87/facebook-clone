@@ -7,7 +7,7 @@ import {MdOutlineSubscriptions} from 'react-icons/md'
 import {MdOutlineStorefront} from 'react-icons/md'
 import {MdSupervisedUserCircle} from 'react-icons/md'
 import {FaUserCircle} from 'react-icons/fa'
-import {GrFormAdd} from 'react-icons/gr'
+import {MdAdd} from 'react-icons/md'
 import {MdForum} from 'react-icons/md'
 import {MdNotificationsActive} from 'react-icons/md'
 import {MdExpandMore} from 'react-icons/md'
@@ -46,10 +46,19 @@ function Header() {
                 <FaUserCircle />
                 <h4>Username</h4>
             </div>
-                <GrFormAdd/>
+            <div className='header_option'>
+                <MdAdd/>
+            </div>
+            <div className="header_option ">
                 <MdForum/>
-                <MdNotificationsActive/>
+            </div>
+            <div className="header_option ">
+                <MdNotificationsActive />
+            </div>
+            <div className="header_option ">
                 <MdExpandMore/>
+            </div>
+                
         </div>
     </div>
   )
