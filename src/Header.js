@@ -19,13 +19,13 @@ function Header() {
             <img src={logo} alt="Logo"/>
             <div className="header_input">
                 <BsSearch />
-                <input type="text"/>
+                <input type="text" placeholder='Search Facebook'/>
             </div>
 
 
         </div>
         <div className="header_center">
-            <div className="header_option ">
+            <div className="header_option header_option_active">
                 <AiFillHome fontSize="large" />
             </div>
             <div className="header_option ">
