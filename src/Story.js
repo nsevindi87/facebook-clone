@@ -1,11 +1,9 @@
-import React from 'react';
-import "./Story.css"
+import React from 'react'
 
-function Story({image, profileSrc, title}) {
+function Story() {
   return (
     <div className='story'>
-      <Avatar src ={profileSrc} />
-      <h4>{title}</h4>
+      <h4>Story</h4>
     </div>
   )
 }

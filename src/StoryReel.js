@@ -1,10 +1,12 @@
-import React from 'react';
-import "./StoryReel.css";
+import React from 'react'
+import Story from './Story'
 
 function StoryReel() {
   return (
-    <div className='storyReel'>
-        {{/* Story */}}
+    <div className='storyreel'>
+        <h4>storyreel</h4>
+        <Story />
+                
     </div>
   )
 }
