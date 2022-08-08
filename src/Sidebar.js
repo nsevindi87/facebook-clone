@@ -1,27 +1,26 @@
 import React, { useReducer } from 'react';
 import "./Sidebar.css";
 import SidebarRow from './SidebarRow';
-import User from './img/image.jpeg'
-import {FaUserCircle} from 'react-icons/fa'
-import {MdLocalHospital} from 'react-icons/md'
-import {MdOutlineEmojiFlags} from 'react-icons/md'
-import {BsPeopleFill} from 'react-icons/bs'
-import {BiChat} from 'react-icons/bi'
-import {MdOutlineStorefront} from 'react-icons/md'
-import {BsCameraVideo} from 'react-icons/bs'
-import {MdOutlineExpandMore} from 'react-icons/md'
+import fozo from "./img/image.jpeg"
+import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
+import EmojiFlagsIcon from '@mui/icons-material/EmojiFlags';
+import PeopleIcon from '@mui/icons-material/People';
+import ChatIcon from '@mui/icons-material/Chat';
+import StorefrontIcon from '@mui/icons-material/Storefront';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <SidebarRow Icon={<FaUserCircle />} title={"Nizami Sevindi"} />  {/* src=" gönderemiyorum" */}
-        <SidebarRow Icon={<MdLocalHospital />} title="Covid-19 Info Center"/>
-        <SidebarRow Icon={<MdOutlineEmojiFlags />} title="Pages"/>
-        <SidebarRow Icon={<BsPeopleFill />} title="Friends"/>
-        <SidebarRow Icon={<BiChat />} title="Messenger"/>
-        <SidebarRow Icon={<MdOutlineStorefront />} title="Marketplace"/>
-        <SidebarRow Icon={<BsCameraVideo />} title="Videos"/>
-        <SidebarRow Icon={<MdOutlineExpandMore />} title="Marketplace"/>
+        <SidebarRow src={fozo} title={"Nizami Sevindi"} /> 
+        <SidebarRow Icon={<LocalHospitalIcon/>} title="Covid-19 Info Center"/>
+        <SidebarRow Icon={<EmojiFlagsIcon />} title="Pages"/>
+        <SidebarRow Icon={<PeopleIcon />} title="Friends"/>
+        <SidebarRow Icon={<ChatIcon />} title="Messenger"/>
+        <SidebarRow Icon={<StorefrontIcon />} title="Marketplace"/>
+        <SidebarRow Icon={<VideoLibraryIcon />} title="Videos"/>
+        <SidebarRow Icon={<ExpandMoreIcon />} title="Marketplace"/>
 
     </div>
   )

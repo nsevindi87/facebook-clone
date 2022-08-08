@@ -1,16 +1,16 @@
 import logo from './img/Facebook_f_logo_(2019).svg.png'
 import "./Header.css";
-import {BsSearch} from 'react-icons/bs'
-import {AiFillHome} from 'react-icons/ai'
-import {AiFillFlag} from 'react-icons/ai'
-import {MdOutlineSubscriptions} from 'react-icons/md'
-import {MdOutlineStorefront} from 'react-icons/md'
-import {MdSupervisedUserCircle} from 'react-icons/md'
-import {FaUserCircle} from 'react-icons/fa'
-import {MdAdd} from 'react-icons/md'
-import {MdForum} from 'react-icons/md'
-import {MdNotificationsActive} from 'react-icons/md'
-import {MdExpandMore} from 'react-icons/md'
+import SearchIcon from '@mui/icons-material/Search';
+import HomeIcon from '@mui/icons-material/Home';
+import EmojiFlagsIcon from '@mui/icons-material/EmojiFlags';
+import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
+import StorefrontIcon from '@mui/icons-material/Storefront';
+import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
+import {Avatar, IconButton} from "@material-ui/core"
+import AddIcon from '@mui/icons-material/Add';
+import ForumIcon from '@mui/icons-material/Forum';
+import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Header() {
   return (
@@ -18,7 +18,7 @@ function Header() {
         <div className="header_left">
             <img src={logo} alt="Logo"/>
             <div className="header_input">
-                <BsSearch />
+                <SearchIcon />
                 <input type="text" placeholder='Search Facebook'/>
             </div>
 
@@ -26,38 +26,39 @@ function Header() {
         </div>
         <div className="header_center">
             <div className="header_option header_option_active">
-                <AiFillHome fontSize="large" />
+                <HomeIcon fontSize="large" />
             </div>
             <div className="header_option ">
-                <AiFillFlag fontSize="large" />
+                <EmojiFlagsIcon fontSize="large" />
             </div>
             <div className="header_option ">
-                <MdOutlineSubscriptions fontSize="large" />
+                <SubscriptionsIcon fontSize="large" />
             </div>
             <div className="header_option ">
-                <MdOutlineStorefront fontSize="large" />
+                <StorefrontIcon fontSize="large" />
             </div>
             <div className="header_option ">
-                <MdSupervisedUserCircle fontSize="large" />
+                <SupervisedUserCircleIcon fontSize="large" />
             </div>
         </div>
         <div className="header_right">
             <div className="header_info">
-                <FaUserCircle />
+                <Avatar/>
                 <h4>Username</h4>
             </div>
-            <div className='header_option'>
-                <MdAdd/>
-            </div>
-            <div className="header_option ">
-                <MdForum/>
-            </div>
-            <div className="header_option ">
-                <MdNotificationsActive />
-            </div>
-            <div className="header_option ">
-                <MdExpandMore/>
-            </div>
+            <IconButton>
+                <AddIcon />
+            </IconButton>
+            <IconButton>
+                <ForumIcon />
+            </IconButton>
+            <IconButton>
+                <NotificationsActiveIcon />
+            </IconButton>
+            <IconButton>
+                <ExpandMoreIcon />
+            </IconButton>
+            
                 
         </div>
     </div>

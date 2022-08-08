@@ -80,3 +80,7 @@
 .header_right>.header_option{
     padding: 12px 31px;
 }
+
+.header_right>.add{
+    margin-left: 10px;
+}
