@@ -8,6 +8,7 @@ function Feed() {
     <div className='feed'>
         <StoryReel />
         <MessageSender />
+        
     </div>
   )
 }

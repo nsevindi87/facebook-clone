@@ -12,6 +12,11 @@ function MessageSender() {
 
     const handleSubmit =(e) =>{
         e.preventDefault();
+
+
+
+        setInput("");
+        setImageUrl("")
     }
 
   return (
