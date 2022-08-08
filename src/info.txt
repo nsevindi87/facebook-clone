@@ -1,0 +1,4 @@
+-Header.js ve Header.css
+---- Element.ui kullanilirlsa .MuiSVGIcon-root genel olarak bütün ikonlara verilen bir klas.
+ Sadece bu klas kullanilarak ayrica klas atamasi yapilmadan istenilen yerdeki ikonlar düzenlenebilir.
+---- <IconButton> <IconButton> arasinda icon atamasi yapilirsa bazi propertiler birlikte geliyor.
