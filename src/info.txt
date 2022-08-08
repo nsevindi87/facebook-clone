@@ -2,3 +2,6 @@
 ---- Element.ui kullanilirlsa .MuiSVGIcon-root genel olarak bütün ikonlara verilen bir klas.
  Sadece bu klas kullanilarak ayrica klas atamasi yapilmadan istenilen yerdeki ikonlar düzenlenebilir.
 ---- <IconButton> <IconButton> arasinda icon atamasi yapilirsa bazi propertiler birlikte geliyor.
+
+----Reed fotograflarinda .jpg ise yaramadi .jpeg olanlar calisti
+Hatta .jpeg olanlardan da images olanlar calismadi. Download adiyla inenler calisti. neden?
