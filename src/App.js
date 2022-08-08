@@ -12,7 +12,6 @@ function App() {
       <div className="app_body">
         <Sidebar />
         <Feed />
-            {/* Stories */}
             {/* Message */}
             {/* Post */}
         {/* Widgets */}

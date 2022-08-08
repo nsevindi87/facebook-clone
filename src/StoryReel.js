@@ -1,4 +1,5 @@
 import Story from './Story';
+import Storyreel from './StoryReel.css'
 import Profile1 from './img/profile 1.jpeg'
 import Profile2 from './img/profile 2.jpeg'
 import Profile3 from './img/profile 3.jpeg'
@@ -14,7 +15,6 @@ import Background5 from './img/Download (5).jpeg'
 function StoryReel() {
   return (
     <div className='storyreel'>
-        <h4>storyreel</h4>
         <Story title="george Orwel"
                profileSrc={Profile1}
                image={Background1} />
