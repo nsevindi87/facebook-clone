@@ -44,9 +44,7 @@
     
 }
 
-
-
-.header_option:hover >.MuiSvgIcon-root {
+.header_option:hover > .MuiSvgIcon-root {
     color: #2e81f4;
 }
 

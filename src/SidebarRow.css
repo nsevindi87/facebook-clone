@@ -12,10 +12,10 @@
 
 .sidebarRow>h4{
     margin-left: 20px;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
-.sidebar .icon{
+.sidebarRow > .MuiSvgIcon-root{
     font-size: xx-large;
     color: #2e81f4;
 }

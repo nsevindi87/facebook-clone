@@ -1,7 +1,6 @@
-import React, { useReducer } from 'react';
 import "./Sidebar.css";
 import SidebarRow from './SidebarRow';
-import fozo from "./img/image.jpeg"
+import foto from "./img/image.jpeg"
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import EmojiFlagsIcon from '@mui/icons-material/EmojiFlags';
 import PeopleIcon from '@mui/icons-material/People';
@@ -13,7 +12,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <SidebarRow src={fozo} title={"Nizami Sevindi"} /> 
+        <SidebarRow src={foto} title={"Nizami Sevindi"} /> 
         <SidebarRow Icon={<LocalHospitalIcon/>} title="Covid-19 Info Center"/>
         <SidebarRow Icon={<EmojiFlagsIcon />} title="Pages"/>
         <SidebarRow Icon={<PeopleIcon />} title="Friends"/>
@@ -26,4 +25,4 @@ function Sidebar() {
   )
 }
 
-export default Sidebar
+export default Sidebar;
