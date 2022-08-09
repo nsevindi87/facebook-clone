@@ -29,8 +29,8 @@
     font-size: medium;
 }
 
-.post_bottom {
-    margin: 10px 0;
+.post_bottom>p {
+    margin-top: 10px 0px;
     padding: 15px 25px;
 }
 
