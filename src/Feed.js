@@ -6,7 +6,6 @@ import Post from "./Post";
 import profilePic1 from "./img/profile 1.jpeg";
 import image1 from './img/Download (1).jpeg'
 import profilePic2 from "./img/profile 2.jpeg";
-import image2 from './img/Download (2).jpeg'
 
 function Feed() {
   return (

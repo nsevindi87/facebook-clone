@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
-import MessageSender from './MessageSender';
+import Widgets from './Widgets';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <div className="app_body">
         <Sidebar />
         <Feed />
-        
+        <Widgets/>
       </div>
     </div>
   );
