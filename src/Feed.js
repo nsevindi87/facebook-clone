@@ -24,7 +24,6 @@ function Feed() {
               message = "wow it works too"
               timestamp="This is timestamp"
               userName="Thomas Edison"
-              image = {image2}
         />
     </div>
   )
