@@ -8,11 +8,15 @@ import ChatIcon from '@mui/icons-material/Chat';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useStateValue } from './StateProvider'
+
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
+
   return (
     <div className='sidebar'>
-        <SidebarRow src={foto} title={"Nizami Sevindi"} /> 
+        <SidebarRow src={user.photoURL} title={user.displayName} /> 
         <SidebarRow Icon={<LocalHospitalIcon/>} title="Covid-19 Info Center"/>
         <SidebarRow Icon={<EmojiFlagsIcon />} title="Pages"/>
         <SidebarRow Icon={<PeopleIcon />} title="Friends"/>

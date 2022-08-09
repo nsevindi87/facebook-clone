@@ -11,8 +11,9 @@ function Widgets() {
       scrolling="no" 
       frameborder="0" 
       allowfullscreen="true" 
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+      allow="encrypted-media"
       ></iframe>
+
     </div>
   )
 }
